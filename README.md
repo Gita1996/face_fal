@@ -1,2 +1,2 @@
 # face_fal
-predicting the most relevant poem or interpretation of Hafez fal regarding the face of person
+We gathered some persain texts and trained a model using fasttext. We got the text information of a face of person using deepface and calculated the fasttex vectors of the poems and interpretation of Hafez poems and interpretations and the text information of the face and found the most relavant peom and interpretation to the text inforamtion of face using roullete wheel selecion algorithm. Then, designed this project as a fastAPI that gets a picture and returns the most relevant poem and interpretation and dockerized the application.
